@@ -1,0 +1,42 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-redis": "^5.0.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.1",
+    "formidable": "^1.2.2",
+    "formik": "^2.1.5",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "local-storage": "^2.0.0",
+    "lodash": "^4.17.19",
+    "mariadb": "^2.4.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "node-datetime": "^2.1.2",
+    "nodemon": "^2.0.4",
+    "react": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "redis": "^3.0.2",
+    "sequelize": "^6.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon --max-http-header-size=150000 src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
